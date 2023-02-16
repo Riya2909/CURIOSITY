@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balthazar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+
+
+}
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: black;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: black;
+}
+h4{
+    font-size: 35px;
+    color: black;
+
+}
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+
+}
+.section-p1 {
+padding: 40px 80px;
+
+}
+.section-m1 {
+    margin: 40px 0;
+    
+    }
+body{
+    width: 100%;
+}
+.logo{
+    width: 40%;
+    height: 40%;
+}
+/* Header start */
+#header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 30px;
+background-color: #7457f6;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+z-index: 999;
+position: sticky;
+top: 0;
+left: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#bar{
+    margin-right: 15px;
+}
+#navbar li{
+    list-style: none;
+    padding: 20px 30px;
+    
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    transition: 0.3s ease;
+}
+#navbar li a:hover, 
+#navbar li a.active{
+    color: #494b52;
+}
+#info .pic {
+    padding: 40px;
+    background-image: url(img/h3.gif);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 30vh;
+    
+}
+#info .quote h4 , h6{
+    background-color: rgba(240, 248, 255, 0.216);
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(68, 66, 66);
+    text-align: center;
+    padding: 8px;
+}
+#steps h2{
+    font-family: 'Concert One', cursive;
+    font-size: 60px;
+    font-weight: 500;
+    background-color:#6748f2 ;
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+}
+#steps .fe_box{
+    background-color: #6748f2;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#steps .fe-box img{
+    width: 50vh;
+    margin-bottom: 10px;
+    padding: 10px;
+    min-height: 50vh ;
+}
+#form .form {
+    background-color: rgb(222, 239, 254);
+    width: 100%;
+    height: 73vh;
+    padding: 40px;
+}
+#form .wrapper{
+    background-color: #6748f2;
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    border:2px solid #494b52;
+    border-radius: 10px;
+    padding: 10px 30px;
+    
+}
+#form .wrapper h2{
+    font-family: 'Concert One', cursive;
+    font-size: 70px;
+    font-weight: 500;
+    padding: 30px 10px;
+    color: #e9f1fc;
+
+
+}
+
+#form input[type=text]{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #e9f1fc;
+}
+#form  .first{
+    height:5vh;
+    
+}
+#form  .second{
+    height:10vh;
+    
+}
+#form ::placeholder{
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 500;
+    text-align: left;
+}
+#form .wrapper button{
+    
+        padding: 20px;
+        font-size: 25px;
+        white-space: nowrap;
+        font-weight: 600;
+        text-align: center;
+        background-color: #08a94e;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 5%;
+        cursor: pointer;
+        transition: 0.2s ease;
+        color: #ffffff;
+        width: 20%;
+        height: 60px;
+        margin-top:20px ;
+        font-family: 'Times New Roman', Times, serif;
+    
+}
+#form button:hover{
+    background-color: #0f713d;
+ } 
+ footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #7457f6;
+}
+footer .col .l1{
+    width: 40%;
+    height: 40%;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    color: #000000;
+}
+footer .col a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 20px;
+    transition: 0.2s ease;
+}
+footer a:hover{
+    color: #088178;
+}
+footer .col h4{
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
