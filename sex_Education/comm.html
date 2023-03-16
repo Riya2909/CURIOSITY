@@ -26,22 +26,47 @@
         </div>
         
     </section>
-    <section id="Community" class="section-p1">
-        <form>
+
+
+    <section id="Community">
+        <div>
             <h1>Join Our Community</h1>
-            <h3>Leave your thoughts here:</h3>
-            <p> UserName: <input type="text" class="first" required></p>
-            <p> Comments: <input type="text" class="second" required></p>
-            
-        </form>
-        <div class="wrapper">
-            <a href="#"><span class="material-symbols-outlined" id="like"> favorite</span></a>
-            <a href="#"><span class="material-symbols-outlined" id="reply">reply</span></a>
-            <button>Post</button>
-
-
         </div>
-    </section>    
+        <div class="container">
+            <div class="left">
+                <form id="form">
+                    <h3>Leave your thoughts here:</h3>
+                    <p> UserName: <input type="text" class="first" id="inputUser" required></p>
+                    <p> Comments: <input type="text" class="second" id="inputComm" required></p>
+                    <div id="msg"></div>
+                    <div class="wrapper">
+                        <button type="submit">Post</button>
+                    </div>
+                </form>
+            </div>
+            <div class="right">
+                <h3>All posts here</h3>
+                <div id="posts">
+                    <div>
+                        <p>I would like to share my experience with this community.</p>
+                        <button class="like_btn" onclick="like()">
+                            <a href="#"><span class="material-symbols-outlined" id="like"> favorite</span></a>
+                            <span id="count">0</span> Like
+                        </button>
+                    </div>
+                    <div>
+                        <p>Hey there! Just got to know about this amazing fact.</p>
+                        <button class="like_btn" onclick="like()">
+                            <a href="#"><span class="material-symbols-outlined" id="like"> favorite</span></a>
+                            <span id="count">0</span> Like
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    
+    
     <footer class="section-p1">
         <div class="col">
             <img class="l1" src="img/logo4.png" alt="">
@@ -65,9 +90,8 @@
             <a href="#">Community</a>
             <a href="#">Help</a>
             <a href="#">Log Out</a>
-        </div>
-        
-        
+        </div>     
     </footer>
 </body>
+<script src="post.js"></script>
 </html>

@@ -99,9 +99,34 @@ left: 0;
     align-items: center;
 }
 
+.container{
+    display: flex;
+    gap: 200px;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-bottom: 40px;
+}
+#posts{
+    width:400px;
+}
+#posts div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ffa07a;
+}
+button{
+    cursor: pointer; 
+}
+i{
+    cursor:pointer;
+}
+#msg{
+    color: red;
+}
+
 #community {
     align-items: center;
-
 }
 #Community h1 {
     text-align: center;
